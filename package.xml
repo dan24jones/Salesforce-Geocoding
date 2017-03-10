@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce Geocoding</fullName>
+    <description>Provides the framework including Apex Classes, Apex Triggers and Unit Tests to allow for easy Geocoding of fields via Google&apos;s Geocoding API</description>
+    <types>
+        <members>AccountTriggerTest</members>
+        <members>Geocode</members>
+        <members>GeocodeTest</members>
+        <members>SObjectUtil</members>
+        <members>SObjectUtilTest</members>
+        <members>SchemaUtil</members>
+        <members>SchemaUtilTest</members>
+        <members>StringUtil</members>
+        <members>StringUtilTest</members>
+        <members>TestUtil</members>
+        <members>TestUtilTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.Billing_Geolocation__c</members>
+        <members>Account.Shipping_Geolocation__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account.Billing_Address</members>
+        <members>Account.Shipping_Address</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
+        <members>GetGeocodeResourceUK</members>
+        <members>GetGeocodeResourceUSA</members>
+        <name>StaticResource</name>
+    </types>
+    <version>37.0</version>
+</Package>
